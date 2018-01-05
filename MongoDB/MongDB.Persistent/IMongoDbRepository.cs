@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using LNK.Infrastructure.Domain;
 using MongoDB.Driver;
 
 namespace MongDB.Persistent

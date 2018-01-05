@@ -11,7 +11,7 @@ namespace MongDB.Persistent
     {
         private readonly IMongoDatabase _mongoDatabase;
 
-        public MongoDbWriteRepository(string mongoDbConnectionString, string mongoDbDatabaseName = null)
+        public MongoDbRepository(string mongoDbConnectionString, string mongoDbDatabaseName = null)
         {
             if (String.IsNullOrWhiteSpace(mongoDbDatabaseName))
             {
